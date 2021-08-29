@@ -6,9 +6,10 @@ int main(int argc, char *argv[]){
     FILE *fin;
     FILE *fout;
     fin = fopen("fin","r");
-    fout = fopen("fout","w");
+    fout = fopen("fout","a");
 
-    feature1(fin,fout);
+    //feature1(fin,fout);
+    //feature2(fin,fout);
 
     return EXIT_SUCCESS;
 }
